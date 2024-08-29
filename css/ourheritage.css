@@ -1,0 +1,645 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.header
+{
+    height:100px ;
+    width: 100%;
+    background-color: black;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url(../images/wp4056038.webp); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Hbox1
+{
+    margin-left: 550px;
+    margin-top: -10px;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
+.Hbox1 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Hbox2
+{
+    margin-left: 34px;
+    background-color: transparent;
+    height: 20px;
+    width: 100px;
+    color: white;
+    margin-top: -20px;
+    font-family: 'Caveat', cursive;
+}
+.Hbox3
+{
+    
+    font-family: 'Satisfy', cursive;
+    background-color: transparent;
+    height: 27px;
+    width: 300px;
+    font-size: 19px;
+    margin-left: 445px;
+    text-align: center;
+    margin-top: -27px;
+    background: linear-gradient(to right, #304352, #d7d2cc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Hbox4
+{
+    
+    color: white;
+    margin-top: -51px;
+    text-align: end;
+
+}
+.Hbox4 input
+{
+    border-radius: 10px;
+    border-color:2px solid white;   
+    height: 30px;
+}
+.Hbox4 ::placeholder
+{
+    text-align: center;
+}
+.btn1
+{
+    background-color: white;
+    border-color: solid 2px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.nav-bar
+{
+    
+    width: 100%;
+    height: 30px;
+    background-color: #3ad59f;
+    position: relative;
+}
+
+.navbar
+{
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+}
+.navlist
+{
+    line-height: 30px;
+    height: 30px;
+    font-family: 'Raleway', sans-serif;   
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-left: 44px;
+}
+.navlist li 
+{
+list-style: none;
+}
+ul li
+{
+    display: inline-block;
+    position: relative;
+}
+ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: start;
+    font-size: 20px;
+}
+ul li ul.dropdown li
+{
+    display: block;
+}
+ul li ul.dropdown
+{
+    height: 270px;
+    width: 180%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a :hover
+{
+    background-color: transparent;
+}
+ul li:hover ul.dropdown
+{
+    display: block;
+}
+
+
+
+.section
+{
+    background-color: black;
+    height: 3455px;
+    width: 100%;   
+}
+.Sbox1
+{
+    color: gray;
+    height: 120px;
+    width: 750px;
+    background-color: chartreuse;
+    margin-top: 100px;
+    margin-left: 260px;
+    text-align: center;
+}
+.Sbox1 h1
+{
+    font-size: 30px;
+    font-family: 'Playfair Display', serif;
+}
+.Sbox1 h4
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    line-height: 20.5px;
+}
+.Sbox2
+{
+    height: 1px;
+    width: 900px;
+    background-color: yellow;
+    margin-top: 60px;
+    margin-left: 185px;
+}
+.Sbox3
+{
+    color: gray;
+    background-color: turquoise;
+    height: 265px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.Sbox3 h1
+{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.Sbox3 h4
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    line-height: 26.5px;
+}
+.Sbox4
+{
+    height: 400px;
+    width: 500px;
+    background-color: yellowgreen;
+    margin-left: 690px;
+    margin-top: -300px;
+}
+.Sbox4 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox5
+{
+    height: 1px;
+    width: 900px;
+    background-color: yellow;
+    margin-top: 60px;
+    margin-left: 185px;
+}
+.Sbox6
+{
+    color: gray;
+    background-color: turquoise;
+    height: 265px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 100px;
+}
+.Sbox6 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox7
+{
+    color: gray;
+    height: 400px;
+    width: 500px;
+    background-color: yellowgreen;
+    margin-left: 690px;
+    margin-top: -300px;   
+}
+.Sbox7 h1
+{
+    text-align: end;
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.Sbox7 h4
+{
+    text-align: end;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    line-height: 21px;
+}
+.Sbox8
+{
+    height: 1px;
+    width: 900px;
+    background-color: yellow;
+    margin-top: 60px;
+    margin-left: 185px;
+}
+.Sbox9
+{
+    height: 200px;
+    width: 100%;
+    background-color: darkblue;
+    margin-top: 20px;
+    text-align: center;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+}
+.Sbox9 h4
+{
+    margin-top:20px ;
+}
+.Sbox9 h5
+{
+    margin-top: 30px;
+    margin-left: 670px;
+}
+.Sbox10
+{
+    color: gray;
+    background-color: turquoise;
+    height: 515px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 60px;
+}
+.Sbox10 h1
+{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.Sbox10 h4
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    line-height: 23px;
+}
+.Sbox11
+{
+    color: gray;
+    height: 400px;
+    width: 500px;
+    background-color: yellowgreen;
+    margin-left: 690px;
+    margin-top: -460px;      
+}
+.Sbox11 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox12
+{
+    height: 1px;
+    width: 900px;
+    background-color: yellow;
+    margin-top: 120px;
+    margin-left: 185px;
+}
+.Sbox13
+{
+    color: gray;
+    background-color: turquoise;
+    height: 515px;
+    width: 660px;
+    margin-left: 20px;
+    margin-top: 60px;
+}
+.Sbox13 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox14
+{
+    text-align: end;
+    color: white;
+    background-color: red;
+    margin-left: 690px;
+    margin-top: -360px;  
+    height: 240px;
+    width: 500px; 
+}
+.Sbox14 h1
+{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.Sbox14 h4
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    line-height: 23px;
+}
+.Sbox14-1
+{
+    color: gray;
+    margin-top: -55px;
+    margin-left: 1010px;
+    height: 40px;
+    width: 175px;
+    background-color: turquoise;
+    position: relative;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px  solid white;
+    cursor: pointer;
+}
+.Sbox14-1 :hover
+{
+    
+    color: white;
+    background-color: blue;
+    border: 2px solid red;
+}
+.Sbox15
+{
+    height: 1px;
+    width: 900px;
+    background-color: yellow;
+    margin-top: 190px;
+    margin-left: 185px;   
+}
+.Sbox16 
+{
+    text-align: center;
+    color: white;
+    margin-left: 540px;
+    margin-top: 75px;
+    height: 40px;
+    width: 180px;
+    background-color: cadetblue;
+}
+.Sbox16 h1
+{
+    font-size: 25px;
+    font-family: 'Playfair Display', serif;
+}
+.Sbox17 
+{
+    height: 300px;
+    width: 320px;
+    background-color: rebeccapurple;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.Sbox17 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox18
+{
+    height: 300px;
+    width: 320px;
+    background-color: rebeccapurple;
+    margin-left: 470px;
+    margin-top: -300px;
+}
+.Sbox18 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox19
+{
+    height: 300px;
+    width: 320px;
+    background-color: rebeccapurple;
+    margin-left: 855px;
+    margin-top: -300px;
+}
+.Sbox19 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox17-1
+{
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 1px  solid red;
+    cursor: pointer;
+    margin-top: 30px;
+    height: 40px;
+    width: 200px;
+    background-color: teal;
+    margin-left: 140px;
+}
+.Sbox18-1
+{
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px  solid white;
+    cursor: pointer;
+    margin-top: -40px;
+    height: 40px;
+    width: 140px;
+    background-color: teal;
+    margin-left: 560px;
+}
+.Sbox19-1
+{
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 1px  solid white;
+    cursor: pointer;
+    margin-top: -40px;
+    height: 40px;
+    width: 130px;
+    background-color: teal;
+    margin-left: 950px;
+}
+.Sbox17-1 :hover
+{
+    background-color: yellow;
+    color: black;
+    transition: 1s ease-in-out ;
+}
+.Sbox18-1 :hover
+{
+    background-color: yellow;
+    color: black;
+    transition: 1s ease-in-out ;
+}
+.Sbox19-1 :hover
+{
+    background-color: yellow;
+    color: black;
+    transition: 1s ease-in-out ;
+}
+
+.footer
+{
+    width: 100%;
+    height: 400px;
+    background:white;
+    /* background: #00416A; 
+background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A); 
+background: linear-gradient(to right, #FFE000, #799F0C, #00416A);  */
+background: #F7F8F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.Fbox1
+{
+    height: 200px;
+    width: 350px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Fbox1 h1
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-family: 'Alice', serif;
+    margin-top: 10px;
+}
+.Fbox1-1
+{
+    
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.Fbox1-1 input
+{
+    border: 2px solid white;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-style: solid;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.Fbox1-1 ::placeholder
+{
+    /* background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+    text-align: center;
+}
+.btn4
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 30px;
+    width: 100px;
+    font-family: 'Macondo', cursive;
+    margin-left: -205px;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+.Fbox2
+{
+    background-color: transparent;
+    height: 70px;
+    width: 70px;
+    margin-left: 600px;
+    margin-top: -220px;
+}
+.Fbox2 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Fbox3
+{
+    border: 2px solid white;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Alice', serif;
+    height: 45px;
+    width: 450px;
+    background-color: transparent;
+    margin-left: 420px;
+}
+.Fbox4
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Alice', serif;
+    text-decoration: none;
+    height: 100px;
+    width: 450px;
+    background-color: transparent;
+    margin-left: 420px;
+    margin-top: 60px;
+    border: 2px solid white;
+}
+.Fbox5
+{
+    background:linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    font-family: 'Alice', serif;
+    height: 115px;
+    width: 225px;
+    background-color: transparent;
+    margin-left: 970px;
+    margin-top: -225px;
+    border: 2px solid white;
+}

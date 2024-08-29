@@ -1,0 +1,642 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.header
+{
+    height:100px ;
+    width: 100%;
+    background-color: black;
+    /* background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),
+    url(../images/wp4056038.webp); */
+    background-position: center;
+    background-size: cover;
+    position: relative;
+}
+.Hbox1
+{
+    margin-left: 550px;
+    margin-top: -10px;
+    height: 100px;
+    width: 100px;
+    background-color: transparent;
+}
+.Hbox1 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Hbox2
+{
+    margin-left: 34px;
+    background-color: transparent;
+    height: 20px;
+    width: 100px;
+    color: white;
+    margin-top: -20px;
+    font-family: 'Caveat', cursive;
+}
+.Hbox3
+{
+    
+    font-family: 'Satisfy', cursive;
+    background-color: transparent;
+    height: 27px;
+    width: 300px;
+    font-size: 19px;
+    margin-left: 445px;
+    text-align: center;
+    margin-top: -27px;
+    background: linear-gradient(to top, #b92b27, #1565c0);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Hbox4
+{
+    
+    color: white;
+    margin-top: -51px;
+    text-align: end;
+
+}
+.Hbox4 input
+{
+    border-radius: 10px;
+    border-color:2px solid white;   
+    height: 30px;
+}
+.Hbox4 ::placeholder
+{
+    text-align: center;
+}
+.btn1
+{
+    background-color: white;
+    border-color: solid 2px;
+    height: 20px;
+    margin-right: 10px;
+}
+
+
+.nav-bar
+{
+    
+    width: 100%;
+    height: 30px;
+    background-color: #3ad59f;
+    position: relative;
+}
+
+.navbar
+{
+    background: linear-gradient(to right, #141e30, #243b55);
+    display: flex;
+}
+.navlist
+{
+    line-height: 30px;
+    height: 30px;
+    font-family: 'Raleway', sans-serif;   
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    text-align: center;
+    gap: 40px;
+    margin-left: 44px;
+}
+.navlist li 
+{
+list-style: none;
+}
+ul li
+{
+    display: inline-block;
+    position: relative;
+}
+ul li a
+{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: start;
+    font-size: 20px;
+}
+ul li ul.dropdown li
+{
+    display: block;
+}
+ul li ul.dropdown
+{
+    height: 270px;
+    width: 180%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a :hover
+{
+    background-color: transparent;
+}
+ul li:hover ul.dropdown
+{
+    display: block;
+}
+
+
+
+.section
+{
+    background-color: black;
+    height: 2850px;
+    width: 100%;   
+}
+.Sbox1
+{
+    
+    color: white;
+    height: 184px;
+    width: 500px;
+    background-color: transparent;
+    margin-left: 340px;
+    margin-top: 80px;
+    text-align: center;
+}
+.Sbox1 h1
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 27px;
+    font-family: 'Alice', serif;
+}
+.Sbox1 h4
+{
+    border: 2px solid white;
+    border: 2px solid white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 18px;
+}
+.Sbox2
+{
+    height: 2px;
+    width: 400px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 430px;
+}
+.Sbox3
+{
+    color: white;
+    background-color: transparent;
+    height: 400px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.Sbox3 h1
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-family: 'Alice', serif;
+}
+.Sbox3 h4
+{
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.Sbox3-1
+{
+       
+    
+    color: linear-gradient(249deg, rgba(255,255,255,1) 84%, rgba(0,0,0,1) 84%);
+    margin-top: 70px;
+    margin-left: 170px;
+    height: 40px;
+    width: 150px;
+    background:  linear-gradient(249deg, rgba(129,36,66,1) 84%, rgba(255,253,253,1) 84%);    
+    position: relative;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid white;
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.Sbox3-1 :hover
+{
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: red ;
+    border: none;
+    border-color: transparent;
+}
+.Sbox4
+{
+    height: 400px;
+    width: 500px;
+    background-color: yellowgreen;
+    margin-left: 690px;
+    margin-top: -400px;
+}
+.Sbox4 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox5
+{
+    height: 2px;
+    width: 400px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 430px;
+}
+.Sbox6
+{
+    background-color: purple;
+    height: 400px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.Sbox6 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox7
+{
+    color: white;
+    text-align: end;
+    height: 400px;
+    width: 500px;
+    background-color: transparent;
+    margin-left: 690px;
+    margin-top: -400px;
+}
+.Sbox7 h1
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-family: 'Alice', serif;
+}
+.Sbox7 h4
+{
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.Sbox7-1
+{
+    margin-top: 35px;
+    margin-left: 180px;
+    height: 40px;
+    width: 150px;
+    background-color: turquoise;
+    position: relative;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid white;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.Sbox7-1 :hover
+{
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: red ;
+    color: white;
+    background-color: black;
+}
+.Sbox8
+{
+    height: 2px;
+    width: 400px;
+    background-color: black;
+    margin-top: 100px;
+    margin-left: 430px;
+}
+.Sbox9
+{
+    color: white;
+    background-color: transparent;
+    height: 400px;
+    width: 500px;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+.Sbox9 h1
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 30px;
+    font-family: 'Alice', serif;
+}
+.Sbox9 h4
+{
+    border: 2px solid black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 16px;
+}
+.Sbox9-1
+{
+    margin-top: 5px;
+    margin-left: 170px;
+    height: 40px;
+    width: 150px;
+    background-color: turquoise;
+    position: relative;
+    font-family: 'Macondo', cursive;
+    text-align: center;
+    line-height: 40px;
+    font-size: 20px;
+    border: 2px solid white;
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+.Sbox9-1 :hover
+{
+    
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: red ;
+}
+.Sbox10
+{
+    height: 400px;
+    width: 500px;
+    background-color: yellowgreen;
+    margin-left: 690px;
+    margin-top: -400px;
+}
+.Sbox10 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Sbox11
+{
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 100px;
+    width: 100%;
+    height: 130px;
+    background:linear-gradient(to right, #141e30, #243b55);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.Sbox11 h4
+{    
+    color: white;
+}
+.Sbox12
+{
+    cursor: pointer;
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 40px;
+    width: 180px;
+    line-height: 40px;
+    background-color: transparent;
+    margin-top: 100px;
+    font-family: 'Alice', serif;
+    margin-left: 540px;
+}
+.Sbox13
+{
+    height: 300px;
+    width: 500px;
+    background-color: #515ada;
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.Sbox13 img
+{
+    height: 100%;
+    width: 100%;
+}
+.btn2
+{
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid white;
+    font-family: 'Macondo', cursive;
+    height:40px;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 230px;
+    color: white;
+    cursor: pointer;
+    
+}
+.btn2:hover
+{
+     background:  linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: red ;
+}
+.Sbox14
+{
+    height: 300px;
+    width: 500px;
+    background-color: #515ada;
+    margin-top: -370px;
+    margin-left: 680px;
+}
+.Sbox14 img
+{
+    height: 100%;
+    width: 100%;
+}
+.btn3
+{
+    cursor: pointer;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    border: 2px solid white;
+    font-family: 'Macondo', cursive;
+    height:40px;
+    background:linear-gradient(to right, #2c3e50, #3498db);
+    font-size: 20px;
+    margin-top: 30px;
+    margin-left: 860px;
+}
+.btn3:hover
+{
+    background:  linear-gradient(to right, #2c3e50, #3498db);
+    color: white;
+    -webkit-text-fill-color: white;
+    -webkit-background-clip: red ;
+}
+.Sbox15
+{
+    position: relative;
+    background: white;
+    height: 2px;
+    width: 85%;
+    margin-left: 90px;
+    margin-top: 80px;
+}
+
+
+
+
+.footer
+{
+    width: 100%;
+    height: 400px;
+    background:white;
+    /* background: #00416A; 
+background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A); 
+background: linear-gradient(to right, #FFE000, #799F0C, #00416A);  */
+background: #F7F8F8;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #ACBB78, #F7F8F8);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #141e30, #243b55); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+}
+.Fbox1
+{
+    height: 200px;
+    width: 350px;
+    background-color: transparent;
+    margin-top: 50px;
+    margin-left: 50px;
+    text-align: center;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.Fbox1 h1
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 25px;
+    font-family: 'Alice', serif;
+    margin-top: 10px;
+}
+.Fbox1-1
+{
+    
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: 20px;
+    margin-left: -50px;
+}
+.Fbox1-1 input
+{
+    border: 2px solid white;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    border-style: solid;
+    width: 250px;
+    height: 30px;
+    border-radius: 5px;
+    
+}
+.Fbox1-1 ::placeholder
+{
+    /* background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; */
+    color: white;
+    text-align: center;
+}
+.btn4
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    height: 30px;
+    width: 100px;
+    font-family: 'Macondo', cursive;
+    margin-left: -205px;
+    margin-top: 20px;
+    border: 2px solid white;
+}
+.Fbox2
+{
+    background-color: transparent;
+    height: 70px;
+    width: 70px;
+    margin-left: 600px;
+    margin-top: -220px;
+}
+.Fbox2 img
+{
+    height: 100%;
+    width: 100%;
+}
+.Fbox3
+{
+    border: 2px solid white;
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 15px;
+    text-align: center;
+    font-family: 'Alice', serif;
+    height: 45px;
+    width: 450px;
+    background-color: transparent;
+    margin-left: 420px;
+}
+.Fbox4
+{
+    background: linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Alice', serif;
+    text-decoration: none;
+    height: 100px;
+    width: 450px;
+    background-color: transparent;
+    margin-left: 420px;
+    margin-top: 60px;
+    border: 2px solid white;
+}
+.Fbox5
+{
+    background:linear-gradient(to right, #2c3e50, #3498db);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: start;
+    font-family: 'Alice', serif;
+    height: 115px;
+    width: 225px;
+    background-color: transparent;
+    margin-left: 970px;
+    margin-top: -225px;
+    border: 2px solid white;
+}

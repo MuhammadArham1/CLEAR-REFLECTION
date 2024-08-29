@@ -1,0 +1,376 @@
+.box1 {
+    font-size: 35px;
+    color: #6a6b6e
+}
+
+.box2 {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #878787;
+    margin-top: 20px;
+}
+
+.box3 {
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #848484;
+    margin-top: 5px;
+    width: 1000px;
+
+}
+
+.box4 {
+
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #848484;
+    margin-top: 5px;
+    width: 1000px;
+
+}
+
+.box5 {
+
+    font-size: 25px;
+    color: #848484;
+    margin-top: 220px;
+    margin-left: 100px;
+    width: 400PX;
+
+}
+
+.box6 {
+
+    text-align: left;
+    font-size: 20px;
+    color: #848484;
+    margin-top: 40px;
+    margin-left: 97px;
+    width: 550PX;
+
+}
+
+.box7 {
+
+    height: 350px;
+    width: 550px;
+    margin-top: -300px;
+    margin-left: 660px;
+}
+
+.box8 {
+
+    height: 350px;
+    width: 570px;
+    margin-top: 130px;
+    margin-left: 83px;
+}
+
+.box9 {
+
+    height: 350px;
+    width: 500px;
+    margin-left: 740px;
+    text-align: right;
+    color: #848484;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -200px;
+}
+
+.box10 {
+    text-align: right;
+    font-size: 30px;
+    color: #848484;
+    margin-top: -450px;
+    margin-left: 840px;
+    width: 400PX;
+
+}
+
+.box11 {
+    margin-top: 350px;
+    background-color: #21253a;
+    height: 150px;
+    width: 1250px;
+
+}
+
+.box12 {
+
+    color: white;
+    width: 750px;
+    margin-left: 260px;
+    margin-top: -100px;
+    padding: 5px;
+    font-size: 20px;
+    text-overflow: clip;
+
+}
+
+.box13 {
+    color: white;
+    width: 150px;
+    font-size: 15px;
+    margin-left: 850px;
+    margin-top: 15px;
+}
+
+.box14 {
+
+    text-align: left;
+    font-size: 20px;
+    color: #848484;
+    margin-top: 200px;
+    margin-left: 85px;
+    width: 550PX;
+
+}
+
+.box15 {
+
+    margin-left: 660px;
+    margin-top: -200px;
+}
+
+.box16 {
+
+    font-size: 25px;
+    color: #848484;
+    margin-top: -450px;
+    margin-left: 84px;
+    width: 400PX;
+
+}
+
+.box17 {
+
+    text-align: left;
+    font-size: 20px;
+    color: #848484;
+    margin-top: 120px;
+    margin-left: 85px;
+    width: 550PX;
+
+}
+
+.box18 {
+
+    background-color: rgb(255, 255, 255);
+    color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: 100PX;
+    margin-left: 82PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+
+}
+
+.box18:hover {
+
+    background-color: #848484;
+    color: white;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: 100PX;
+    margin-left: 82PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+
+}
+
+.box19 {
+
+    height: 350px;
+    width: 570px;
+    margin-top: 160px;
+    margin-left: 83px;
+}
+
+.box20 {
+
+    text-align: right;
+    font-size: 25px;
+    color: #848484;
+    margin-top: -400px;
+    margin-left: 795px;
+    width: 450PX;
+
+}
+
+.box21 {
+
+    font-size: 18px;
+    height: 400px;
+    width: 450px;
+    margin-left: 790px;
+    text-align: right;
+    color: #848484;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 70px;
+}
+
+.box22 {
+
+    background-color: rgb(255, 255, 255);
+    color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: -190PX;
+    margin-left: 947PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+
+}
+
+.box22:hover {
+
+    background-color: #848484;
+    color: white;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: -190PX;
+    margin-left: 947PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+
+}
+
+.box23 {
+    background-color: rgb(177, 177, 177);
+    margin-top: 100px;
+    height: 1px;
+    width: 800px;
+}
+
+.box24 {
+
+    font-size: 30px;
+    margin-top: 50px;
+    color: #000000;
+
+}
+
+.box25 {
+    margin-top: 24px;
+}
+
+.box26 {
+    height: 372;
+    width: 376;
+    margin-top: -380px;
+    margin-left: 20px;
+}
+
+.box27 {
+    height: 372;
+    width: 376;
+    margin-top: -380px;
+    margin-left: 858px;
+}
+
+.box28 {
+
+    background-color: rgb(255, 255, 255);
+    color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: 25PX;
+    margin-left: 50PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+
+}
+
+.box28:hover {
+    background-color: #848484;
+    color: white;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: 25PX;
+    margin-left: 50PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+
+}
+
+.box29 {
+
+    background-color: rgb(255, 255, 255);
+    color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: -50PX;
+    margin-left: 475PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+
+}
+
+.box29:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: -50PX;
+    margin-left: 475PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+
+}
+
+.box30 {
+
+    background-color: rgb(255, 255, 255);
+    color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: -50PX;
+    margin-left: 905PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+
+}
+
+.box30:hover {
+
+    color: rgb(255, 255, 255);
+    background-color: #848484;
+    width: 260px;
+    font-size: 15PX;
+    text-align: center;
+    margin-top: -50PX;
+    margin-left: 905PX;
+    border: 1.5px solid #848484;
+    padding: 15PX;
+    cursor: pointer;
+    transition: ease-in-out;
+    transition-duration: 0.5s;
+
+}

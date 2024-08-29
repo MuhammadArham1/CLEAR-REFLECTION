@@ -1,0 +1,8 @@
+ (background)linear-gradient(to right, #304352, #d7d2cc);
+
+
+ font-family: 'Unbounded', cursive;
+        font-weight: bold;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');

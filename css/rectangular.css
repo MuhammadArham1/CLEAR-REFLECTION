@@ -1,0 +1,930 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero
+{
+    width: 100%;
+    height: 20vh;
+    /* background-image: linear-gradient(rgba(12,3,51,0.3),rgba(12,3,51,0.3)); */
+    background-color: white;
+    position: relative;
+    padding: 0.5%;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    border: 1px solid black;
+}
+nav
+{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 20px 8%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo
+{
+    width: 100px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    margin-left: 40px;
+}
+nav ul li a
+{
+    font-family: 'Old Standard TT', serif;
+    text-decoration: none;
+    color: gray;
+    font-size: 17px;
+}
+nav ul li a:hover
+{
+    transition: ease-in-out 0.5s;
+    border: solid 2px  black;
+}
+ul li ul.dropdown li
+{
+    display: block;
+}
+ul li ul.dropdown
+{
+    font-size: 20px;
+    padding: 40px 40px;
+    color: white;
+    height: 270px;
+    width: 180%;
+    background-color: transparent;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a :hover
+{
+    background-color: transparent;
+}
+ul li:hover ul.dropdown
+{
+    font-size: 30px;
+    font-weight: 600;
+    background-color: rgba(0,0,0,0.8);
+    height: 250px;
+    width: 300px;
+    display: block;
+}
+
+.section
+{
+    background-color: black;
+    height: 2200px;
+    width: 100%;   
+}
+.sbox1
+{
+
+    width: 530px;
+    height: 300px;
+    position: absolute;
+    margin-top: 150px;
+    margin-left: 30px;
+}
+.sbox1 h1
+{
+    font-family: 'Cormorant Garamond', serif;
+    color: rgb(109, 103, 103);
+    font-size: 35px;
+    margin-left: 110px;
+
+
+}
+.sbox1 p
+{
+color: gray;
+font-size: 17px;
+margin-left: 10px;
+margin-top: 20px;
+font-family: 'Courgette', cursive;
+}
+
+.sbox2
+{
+    width: 650px;
+    height: 350px;
+    position: absolute;
+    margin-left: 570px;
+    margin-top: 100px;
+}
+.sbox2 img
+{
+    width:100%;
+    height: 100%;
+}
+
+/* .sbox3{
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-top: 570px;
+    margin-left: 70px;
+}
+.sbox3 img
+{
+    width: 100%;
+    height:100%;
+  
+}
+.sbox3:hover .sbox4
+{
+    display: block;
+    cursor: pointer;    
+}
+.sbox4
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.sbox4 img
+{
+    width: 100%;
+    height: 100%;
+
+}
+
+.sbox5
+{
+    
+    width: 130px;
+    height: 50px;
+    margin-left: 155px;
+    margin-top: 20px;
+}
+.sbox5 h1
+{
+color: rgb(82, 81, 81);
+font-family: 'Unbounded', cursive;
+font-weight: bold;
+
+} 
+.sbox5 h1:hover
+{
+    text-decoration: underline;
+   cursor: pointer;
+}
+.sbox6{
+    position: relative;
+    background-color: black;
+    width: 300px;
+    height: 300px;
+    margin-top: -370px;
+    margin-left: 470px;
+}
+.sbox6 img{
+    width: 100%;
+    height:100%;
+}
+.sbox7{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.sbox7 img{
+    width: 100%;
+    height: 100%;
+
+}
+.sbox6:hover .sbox7{
+    display: block;
+    cursor: pointer;
+   
+    
+    
+}
+.sbox8{
+     
+    width: 130px;
+    height: 50px;
+    margin-left: 100px;
+    margin-top: 20px;
+}
+.sbox8 h1{
+    color: rgb(82, 81, 81);
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    
+    } 
+.sbox8 h1:hover{
+    text-decoration: underline;
+   cursor: pointer;
+}
+
+.sbox12{
+    position: relative;
+    background-color: black;
+    width: 400px;
+    height: 400px;
+    margin-top: -10px;
+    margin-left: 19px;
+}
+.sbox12 img{
+    width: 400px;
+    height:400px;
+}
+.sbox12:hover .sbox13{
+    display: block;
+    cursor: pointer;
+   
+    
+    
+}
+.sbox13{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: none;
+}
+.sbox13 img{
+    width: 400px;
+    height: 400px;} */
+
+
+    .sbox3{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: 500px;
+        margin-left: 70px;
+    }
+    .sbox3 img{
+        width: 100%;
+        height:100%;
+      
+    }
+    .sbox3:hover .sbox4{
+        display: block;
+        cursor: pointer;
+       
+        
+        
+    }
+    .sbox4{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox4 img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .sbox5{
+        
+        width: 130px;
+        height: 50px;
+        margin-left: 125px;
+        margin-top: 20px;
+    }
+    .sbox5 h1{
+    color: rgb(82, 81, 81);
+    font-family: 'Unbounded', cursive;
+    font-weight: bold;
+    
+    } 
+    .sbox5 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox6{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -370px;
+        margin-left: 470px;
+    }
+    .sbox6 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox7{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox7 img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .sbox6:hover .sbox7{
+        display: block;
+        cursor: pointer;
+       
+        
+        
+    }
+    .sbox8{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 520px;
+        margin-top: 20px;
+    }
+    .sbox8 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox8 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox9{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -370px;
+        margin-left: 875px;
+    }
+    .sbox9 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox10{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox10 img{
+        width: 100%;
+        height: 100%;
+    
+    }
+    .sbox9:hover .sbox10{
+        display: block;
+        cursor: pointer;
+       
+        
+        
+    }
+    .sbox11{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 970px;
+        margin-top: 20px;
+    }
+    .sbox11 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox11 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox12{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -10px;
+        margin-left: 70px;
+    }
+    .sbox12 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox12:hover .sbox13{
+        display: block;
+        cursor: pointer;
+       
+        
+        
+    }
+    .sbox13{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox13 img{
+        width: 100%;
+        height: 100%;}
+    
+        
+    .sbox14{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 110px;
+        margin-top: 20px;
+    }
+    .sbox14 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox14 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox15{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height:300px;
+        margin-top: -369px;
+        margin-left: 470px;
+    }
+    .sbox15 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox15:hover .sbox16{
+        display: block;
+        cursor: pointer;
+       
+        
+        
+    }
+    .sbox16{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox16 img{
+        width: 100%;
+        height: 100%;
+    }
+        
+    .sbox17{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 530px;
+        margin-top: 20px;
+    }
+    .sbox17 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;       
+        font-weight: bold;
+        
+        } 
+    .sbox17 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox18{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -368px;
+        margin-left: 875px;
+    }
+    .sbox18 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox18:hover .sbox19{
+        display: block;
+        cursor: pointer;
+       
+        
+        
+    }
+    .sbox19{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox19 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox20{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 955px;
+        margin-top: 20px;
+    }
+    .sbox20 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox20 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox21{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: 20px;
+        margin-left: 70px;
+    }
+    .sbox21 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox21:hover .sbox22{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .sbox22{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox22 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox23{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 130px;
+        margin-top: 20px;
+    }
+    .sbox23 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox23 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox24{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -369px;
+        margin-left: 470px;
+    }
+    .sbox24 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox24:hover .sbox25{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .sbox25{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox25 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox26{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 525px;
+        margin-top: 20px;
+    }
+    .sbox26 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox26 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox27{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -369px;
+        margin-left: 877px;
+    }
+    .sbox27 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox27:hover .sbox28{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .sbox28{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox28 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox29{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 960px;
+        margin-top: 20px;
+    }
+    .sbox29 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;        font-weight: bold;
+        
+        } 
+    .sbox29 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox30{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top:-10px;
+        margin-left: 70px;
+    }
+    .sbox30 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox30:hover .sbox31{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .sbox31{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox31 img{
+        width: 100%;
+        height: 100%;
+    }
+    .sbox32{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 135px;
+        margin-top: 20px;
+    }
+    .sbox32 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox32 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox33{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -370px;
+        margin-left: 471px;
+    }
+    .sbox33 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox33:hover .sbox34{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .sbox34{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox34 img{
+        width: 300px;
+        height: 300px;
+    }    
+    
+    .sbox35{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 560px;
+        margin-top: 20px;
+    }
+    .sbox35 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox35 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }
+    .sbox36{
+        position: relative;
+        background-color: black;
+        width: 300px;
+        height: 300px;
+        margin-top: -369px;
+        margin-left: 879px;
+    }
+    .sbox36 img{
+        width: 100%;
+        height:100%;
+    }
+    .sbox36:hover .sbox37{
+        display: block;
+        cursor: pointer;
+        
+    }
+    .sbox37{
+        position: absolute;
+        top: 0;
+        left: 0;
+        display: none;
+    }
+    .sbox37 img{
+        width: 100%;
+        height: 100%;
+    }  
+    
+    .sbox38{
+         
+        width: 130px;
+        height: 50px;
+        margin-left: 980px;
+        margin-top: 20px;
+    }
+    .sbox38 h1{
+        color: rgb(82, 81, 81);
+        font-family: 'Unbounded', cursive;
+        font-weight: bold;
+        
+        } 
+    .sbox38 h1:hover{
+        text-decoration: underline;
+       cursor: pointer;
+    }  
+
+    footer
+    {
+        width: 100%;
+        height: 400px;
+        background:white;
+        /* background: #00416A; 
+    background: -webkit-linear-gradient(to right, #FFE000, #799F0C, #00416A); 
+    background: linear-gradient(to right, #FFE000, #799F0C, #00416A);  */
+    
+    
+    }
+    .Fbox1
+    {
+        height: 200px;
+        width: 350px;
+        background-color: transparent;
+        margin-top: 50px;
+        margin-left: 50px;
+        text-align: center;
+        color: black;
+    }
+    .Fbox1 h1
+    {
+        color: black;
+        font-size: 25px;
+        font-family: 'Pacifico', cursive;
+        margin-top: 10px;
+    }
+    .Fbox1-1
+    {
+        
+       color: white;
+        margin-top: 20px;
+        margin-left: -50px;
+    }
+    .Fbox1-1 input
+    {
+        color: white;
+        background-color: black;
+        border: 2px solid gray;
+        border-style: solid;
+        width: 250px;
+        height: 30px;
+        border-radius: 5px;
+        
+    }
+    .Fbox1-1 ::placeholder
+    {
+        color: white;
+        text-align: center;
+    }
+    .btn4
+    {
+        color: black;
+        cursor: pointer;
+        background-color: white;
+        height: 30px;
+        width: 100px;
+        font-family: 'Macondo', cursive;
+        margin-left: -205px;
+        margin-top: 20px;
+        border: 2px solid black;
+    }
+    .Fbox2
+    {
+        background-color: transparent;
+        height: 70px;
+        width: 70px;
+        margin-left: 600px;
+        margin-top: -220px;
+    }
+    .Fbox2 img
+    {
+        height: 100%;
+        width: 100%;
+    }
+    .Fbox3
+    {
+        border: 2px solid black;
+        color: black;
+        font-size: 15px;
+        text-align: center;
+        font-family: 'Alice', serif;
+        height: 45px;
+        width: 450px;
+        background-color: transparent;
+        margin-left: 420px;
+    }
+    .Fbox4
+    {
+        color: black;
+        text-align: center;
+        font-family: 'Alice', serif;
+        text-decoration: none;
+        height: 100px;
+        width: 450px;
+        background-color: transparent;
+        margin-left: 420px;
+        margin-top: 60px;
+        border: 2px solid black;
+        text-decoration: none;
+        text-decoration-color: transparent;
+    }
+    .Fbox4 h3
+    {
+        text-decoration: none;
+        text-decoration-color: transparent;
+    }
+    .Fbox5
+    {
+        color: black;
+        text-align: start;
+        font-family: 'Alice', serif;
+        height: 115px;
+        width: 225px;
+        background-color: transparent;
+        margin-left: 970px;
+        margin-top: -225px;
+        border: 2px solid black;
+    }
